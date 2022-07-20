@@ -1,0 +1,25 @@
+.not_found_box {
+  @include set_w_h();
+  overflow: hidden;
+  text-align: center;
+  background-color: #ffffff;
+  position: relative;
+  .main {
+    @include set_w_h(536, 261);
+    background: url('../../../static/images/404.png') 50% no-repeat;
+    background-size: 100% 100%;
+    margin: 18vh auto 0;
+  }
+  .hint {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    font-style: italic;
+    margin-top: 50px;
+  }
+  .btn_box {
+    text-align: center;
+    margin-top: 30px;
+  }
+}

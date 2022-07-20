@@ -1,0 +1,100 @@
+{
+  "id": "2815741",
+  "name": "网易云网页版",
+  "font_family": "iconfont",
+  "css_prefix_text": "pdd-",
+  "description": "网易云网页版",
+  "glyphs": [
+    {
+      "icon_id": "13137519",
+      "name": "歌词未点击",
+      "font_class": "gc",
+      "unicode": "e727",
+      "unicode_decimal": 59175
+    },
+    {
+      "icon_id": "444234",
+      "name": "专辑，光盘",
+      "font_class": "gp",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "1243700",
+      "name": "音乐",
+      "font_class": "music",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "1308038",
+      "name": "047操作_上一首",
+      "font_class": "up",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "1308051",
+      "name": "048操作_下一首",
+      "font_class": "down",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "4425897",
+      "name": "循环",
+      "font_class": "for",
+      "unicode": "e7b1",
+      "unicode_decimal": 59313
+    },
+    {
+      "icon_id": "4880430",
+      "name": "排序",
+      "font_class": "sort",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "8765236",
+      "name": "收起-1",
+      "font_class": "sq",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "8765254",
+      "name": "展开",
+      "font_class": "zk",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "18963668",
+      "name": "随机播放",
+      "font_class": "for_p",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "18965480",
+      "name": "单曲循环",
+      "font_class": "line",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "18965598",
+      "name": "播放MV",
+      "font_class": "p_mv",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "23946546",
+      "name": "火箭",
+      "font_class": "hj",
+      "unicode": "ec19",
+      "unicode_decimal": 60441
+    }
+  ]
+}

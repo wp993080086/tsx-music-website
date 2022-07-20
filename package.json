@@ -1,0 +1,60 @@
+{
+  "name": "tsx-music-website",
+  "private": true,
+  "version": "1.0.0",
+  "author": {
+    "name": "鹏多多",
+    "email": "993080086@qq.com",
+    "url": "https://github.com/wp993080086"
+  },
+  "scripts": {
+    "serve": "vite --mode development",
+    "serve_test": "vite --mode test",
+    "build_test": "vite build --mode test",
+    "build": "vite build --mode production",
+    "lint": "eslint --ext .js,.ts,.tsx,.vue --ignore-path .gitignore --fix src",
+    "lint-fix": "eslint --fix ./src --ext .vue,.js",
+    "format": "prettier .  --write",
+    "prepare": "husky install",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37",
+    "pinia": "^2.0.16",
+    "axios": "^0.27.2",
+    "vue-router": "^4.1.2",
+    "element-plus": "^2.2.9",
+    "qs": "^6.11.0",
+    "dplayer": "^1.26.0",
+    "nprogress": "^0.2.0",
+    "qrcodejs2": "0.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "@types/nprogress": "^0.2.0",
+    "@types/qs": "^6.9.7",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "@vitejs/plugin-vue": "^3.0.1",
+    "@vitejs/plugin-vue-jsx": "^2.0.0",
+    "autoprefixer": "^10.4.7",
+    "core-js": "^3.23.5",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.2.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1",
+    "rollup-plugin-external-globals": "^0.6.1",
+    "sass": "^1.50.1",
+    "sass-loader": "^12.6.0",
+    "typescript": "~4.7.4",
+    "vite": "^3.0.2",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-style-import": "^2.0.0",
+    "vue-tsc": "^0.38.8",
+    "typescript-plugin-css-modules": "^3.4.0"
+  }
+}
