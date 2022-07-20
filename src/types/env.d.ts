@@ -30,10 +30,3 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
-
-type CSSModuleClasses = { readonly [key: string]: string }
-
-declare module '*.module.scss' {
-  const classes: CSSModuleClasses
-  export default classes
-}

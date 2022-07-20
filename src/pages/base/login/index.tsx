@@ -1,6 +1,6 @@
 import { defineComponent } from 'vue'
 import { useRouter } from 'vue-router'
-import styles from './login.mudule.scss'
+import styles from './login.module.scss'
 
 export default defineComponent({
   name: 'login',
