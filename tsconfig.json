@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es6",
     "useDefineForClassFields": true,
+    "allowUnreachableCode": true, // 不报告执行不到的代码错误
     "module": "esnext",
     "moduleResolution": "node",
     "strict": true,
@@ -12,8 +13,8 @@
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
     "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true, // 用来指定允许从没有默认导出的模块中默认导入
+    "baseUrl": "./",
     "paths": { "@/*": [ "src/*" ] },
     "types": ["node"],
     "removeComments": true,

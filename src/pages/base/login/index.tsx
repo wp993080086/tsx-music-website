@@ -12,8 +12,8 @@ export default defineComponent({
     }
 
     return () => (
-      <div class={styles.login_box}>
-
+      <div class={styles.login}>
+        111
       </div>
     )
   }

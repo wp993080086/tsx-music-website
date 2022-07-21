@@ -1,3 +1,5 @@
+@use "../../../static/styles/common.scss" as *;
+
 .not_found_box {
   @include set_w_h();
   overflow: hidden;

@@ -8,7 +8,7 @@ import { createHtmlPlugin } from 'vite-plugin-html'
 
 const cdn = {
   cssCdn: [
-    'https://unpkg.com/element-plus@2.2.8/dist/index.css',
+    'https://unpkg.com/element-plus@2.2.9/dist/index.css',
     'https://unpkg.com/nprogress@0.2.0/nprogress.css'
   ],
   jsCdn: [
@@ -17,7 +17,7 @@ const cdn = {
     'https://unpkg.com/axios@0.27.2/dist/axios.min.js',
     'https://unpkg.com/vue-router@4.1.0/dist/vue-router.global.prod.js',
     'https://unpkg.com/pinia@2.0.14/dist/pinia.iife.prod.js',
-    'https://unpkg.com/element-plus@2.2.8/dist/index.full.min.js',
+    'https://unpkg.com/element-plus@2.2.9/dist/index.full.min.js',
     'https://unpkg.com/qrcodejs2@0.0.2/qrcode.min.js',
     'https://unpkg.com/dplayer@1.26.0/dist/DPlayer.min.js',
     'https://unpkg.com/nprogress@0.2.0/nprogress.js'
@@ -111,8 +111,7 @@ export default defineConfig(({ mode }) => {
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData:
-            '@import "./src/static/styles/reset.scss";@import "./src/static/styles/common.scss";'
+          additionalData: '@import "./src/static/styles/reset.scss";'
         }
       }
     }
