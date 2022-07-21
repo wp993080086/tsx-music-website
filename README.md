@@ -5,16 +5,21 @@
 ![vite](https://img.shields.io/badge/3.0.2-vite-orange)
 ![typeScript](https://img.shields.io/badge/4.7.4-typeScript-lightgrey)
 ![vue](https://img.shields.io/badge/3.2.37-vue-brightgreen)
-![axios](https://img.shields.io/badge/0.27.2-axios-ff69b4)
-![vue-router](https://img.shields.io/badge/4.1.2-vue%20router-blueviolet)
   
 </div>
 
 <div align=center>
 
+![axios](https://img.shields.io/badge/0.27.2-axios-ff69b4)
+![vue-router](https://img.shields.io/badge/4.1.2-vue%20router-blueviolet)
 ![pinia](https://img.shields.io/badge/2.0.16-pinia-yellow)
 ![element-plus](https://img.shields.io/badge/2.2.9-element--plus-409EFF)
 ![nprogress](https://img.shields.io/badge/0.2.0-nprogress-red)
+  
+</div>
+
+<div align=center>
+
 ![sass](https://img.shields.io/badge/1.50.1-sass-orange)
 ![typescript-plugin-css-modules](https://img.shields.io/badge/typescript--plugin--css--modules-3.4.0-blue)
 ![husky](https://img.shields.io/badge/husky-8.0.1-red)
